@@ -6,21 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>가변 이미지</title>
   <style>
-    img{
-      width: 100%;
-      max-width: 640px;
-      /* max-width: 100%; */
-    }
   </style>
 </head>
 <body>
-
-  <img src="./imgs/1.png">
-
-  <!-- <picture>
-    <source srcset="./imgs/3.png" media="(min-width: 1200px)">
-    <source srcset="./imgs/2.png" media="(min-width: 800px)">
-    <img src="./imgs/1.png">
-  </picture> -->
+  <picture>
+    <source srcset="imgs/3.png" media="(min-width: 1200px)">
+    <source srcset="imgs/2.png" media="(min-width: 800px)">
+    <img src="imgs/1.png">
+  </picture>
 </body>
 </html>
