@@ -22,7 +22,6 @@
   border: none;
   background-color: transparent;
   font-size: 1.5rem;
-  cursor: pointer;
 }
 .header__title{
   margin: 0 0 0 0.2em;
@@ -61,7 +60,6 @@
   border: none;
   background-color: transparent;
   font-size: 1.5rem;
-  cursor: pointer;
 }
 .header__profile{
   width: 40px;
